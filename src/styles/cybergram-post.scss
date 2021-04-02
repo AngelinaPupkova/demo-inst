@@ -1,0 +1,100 @@
+.cybergram-post {
+  padding-top: 0px;
+  background-color: white;
+}
+
+.cybergram-post ~ .cybergram-post {
+  padding-top: 0;
+}
+
+.cybergram-post {
+  padding: 0;
+  padding-bottom: 50px;
+  margin:15px;
+
+  .header {
+    height: 45px;
+    border-bottom: 1px solid #fff;
+    margin: 7.5px 10px;
+
+    .userImage {
+      display: inline-block;
+      margin-inline-start: 0;
+      margin-inline-end:0;
+      margin-top: 25px;
+
+    }
+
+    img {
+      border-radius: 99px;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+    }
+
+    .username {
+      position: relative;
+      bottom: 14px;
+      left: 5px;
+      font-weight: bold;
+    }
+  }
+
+  .level {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .image-container {
+    height: 330px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-direction:column;
+    margin-top: 1rem;
+  }
+
+  .content {
+    margin: 7px 10px;
+  }
+
+  .heart {
+    display: inline-block;
+    vertical-align:middle;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px 0 0;
+    background-image: url("../assets/icons8-heart-30.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+  }
+  .far.fa-heart,
+  .fas.fa-heart {
+    cursor: pointer;
+  }
+
+  .fas.fa-heart {
+    color: #f06595;
+  }
+
+  .like-container {
+    margin: 5px 0 0 0;
+  }
+
+  .likes {
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+
+  .caption {
+    font-size: 0.85rem;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
